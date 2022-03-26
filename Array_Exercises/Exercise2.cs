@@ -1,5 +1,5 @@
 /*Write a program, which reads two arrays from the console and checks whether they are equal 
- * (two arrays are equal when they are of equal length and all of their elements, which 
+  * (two arrays are equal when they are of equal length and all of their elements, which 
  * have the same index, are equal).
  */
 
@@ -51,6 +51,6 @@ public class Program
 
 		// Print result
 		if(equalArrays == true) { Console.WriteLine("Arrays are equal."); }
-        else { Console.WriteLine("Arrays are NOT equal.")}
+        else { Console.WriteLine("Arrays are NOT equal."); }
 	}
 }
