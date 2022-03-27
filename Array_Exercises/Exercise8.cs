@@ -16,7 +16,7 @@ public class Program
         Console.Write("Enter the value(s) of the array: ");
         for (int i = 0; i < len; i++)
         {
-            Console.Write("\nMatrix {0} = ", i);
+            Console.Write("Value {0} = ", i);
             arr[i] = Convert.ToInt32(Console.ReadLine());
         }
 
@@ -30,9 +30,9 @@ public class Program
         {
             int minimum = i;
             
-            for (int j = 0; j < arr.Length + 1; j++)
+            for (int j = i + 1; j < arr.Length; j++)
             {
-                if (arr[j] == arr[minimum])
+                if (arr[j] < arr[minimum])
                 {
                     minimum = j;
                 }
