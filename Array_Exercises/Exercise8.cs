@@ -26,11 +26,11 @@ public class Program
             Console.Write(arr[i] + ", ");
         }
 
-        for (int i = 0; i < arr.Length - 2; i++)
+        for (int i = 0; i < arr.Length - 1; i++)
         {
             int minimum = i;
             
-            for (int j = 0; j < arr.Length - 1; j++)
+            for (int j = 0; j < arr.Length + 1; j++)
             {
                 if (arr[j] == arr[minimum])
                 {
